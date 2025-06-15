@@ -1,0 +1,14 @@
+nl\inholland\appliedmathematics\oop2\MovieApp.class
+nl\inholland\appliedmathematics\oop2\AsyncManager.class
+nl\inholland\appliedmathematics\oop2\IImageHandler.class
+nl\inholland\appliedmathematics\oop2\DataBaseSimilar.class
+nl\inholland\appliedmathematics\oop2\Movie.class
+nl\inholland\appliedmathematics\oop2\DataBaseImageRouting.class
+nl\inholland\appliedmathematics\oop2\IMovieHandler.class
+nl\inholland\appliedmathematics\oop2\ExceptionRatingOutOfBound.class
+nl\inholland\appliedmathematics\oop2\MovieEntityDTO.class
+nl\inholland\appliedmathematics\oop2\Movie$MovieBuilder.class
+nl\inholland\appliedmathematics\oop2\MovieRepo.class
+nl\inholland\appliedmathematics\oop2\ExceptionMovieNotFound.class
+nl\inholland\appliedmathematics\oop2\ImageHandler.class
+nl\inholland\appliedmathematics\oop2\DataBaseBase.class
