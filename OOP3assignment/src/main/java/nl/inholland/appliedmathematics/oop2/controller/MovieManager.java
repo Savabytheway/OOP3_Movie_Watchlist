@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import nl.inholland.appliedmathematics.oop2.IMovieHandler;
 import nl.inholland.appliedmathematics.oop2.model.Movie;
 import nl.inholland.appliedmathematics.oop2.model.MovieEntityDTO;
+import nl.inholland.appliedmathematics.oop2.service.IMovieHandler;
 
 @RestController
 @RequestMapping("/api/movie")
