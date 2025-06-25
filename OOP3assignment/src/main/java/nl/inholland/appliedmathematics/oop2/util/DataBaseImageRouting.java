@@ -10,13 +10,15 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import org.springframework.stereotype.Service;
+
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.ToString;
 
 @ToString
 @EqualsAndHashCode
-
+@Service
 public class DataBaseImageRouting {
 
     @Getter private static final String TMDB_APITOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIzOTc1ZjdlNzNiMDU2NjJhNjFlZDk5NjMxZGZiYTg3ZCIsIm5iZiI6MTc0OTUwODg2MC4yNDg5OTk4LCJzdWIiOiI2ODQ3NjJmYzhkMWYyODY2M2UzZmNkNzAiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.kyx3DrzFK9Ms0T15LHRGEi1jgFDtC-RIC7ql4m1OTT4";
