@@ -16,6 +16,11 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+/**
+ * Entity class representing a Movie.
+ * Uses Lombok annotations.
+ * Annotated for JPA persistence.
+ */
 @Entity
 @Builder
 @Table
@@ -25,25 +30,36 @@ import lombok.ToString;
 @EqualsAndHashCode
 @NoArgsConstructor
 @AllArgsConstructor
+public class Movie {
 
-// Then of course my Movie class with only the attributes and little to no extra behaviour.
-
-public class Movie{
-
+    // Unique identifier for the movie (primary key).
     @Id
     @Column(nullable = false)
-
-    // Very important unique identifier!
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
+    // Movie title.
     private String title;
+
+    // Year the movie was released.
     private int releaseYear;
+
+    // Director of the movie.
     private String director;
+
+    // Genre of the movie.
     private String genre;
+
+    // String representing similar movies.
     private String similarMovies;
+
+    // File paths associated with the movie.
     private String filePaths;
+
+    // Watched status of the movie.
     private boolean watched;
+
+    // Rating of the movie (e.g., 0-5).
     private int rating;
 
 }
